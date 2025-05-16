@@ -1,7 +1,7 @@
 import pygame
 from .utils import Vector2D, random_color, random_shape
 import random
-from multiprocessing import Pool  # Importación para usar multiprocesos
+from multiprocessing import Pool 
 
 class PhysicalProperties:  # Encapsulamiento, se define una clase que encapsula las propiedades físicas de un objeto
     def __init__(self, mass: float, position: Vector2D, velocity: Vector2D):
